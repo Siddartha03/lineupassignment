@@ -66,6 +66,7 @@ label #btn {
     color: white;
     padding: 11px 11px;
     transition: all .5s;
+    position: fixed;
 }
 label #cancel {
     z-index: 1111;
@@ -74,6 +75,7 @@ label #cancel {
     font-size: 25px;
     color: #e2e6e7;
     padding: 8px 8px;
+    position: fixed;
 }
 #check:checked ~ .sidebar {
     left: 0;
@@ -122,16 +124,13 @@ label {
     cursor: pointer;
     font-size: 28px;
   }
-  .profile {
-    
-}
 .column1 {
     margin-top: 100px;
     margin-left: 100px;
     float: left;
     border: 1px solid black;
     border-radius: 15px;
-    height: 293px;
+    height: 320px;
     width: 22%;
 }
 .profile:after {
@@ -145,6 +144,19 @@ label {
   }
   u i {
     margin-right: 20px;
+  }
+  .candidates {
+    color: white;
+    background-color: lightcoral;
+    border: 1px solid lightblue;
+    padding: 4px;
+    border-radius: 5px; 
+  }
+  .candidates:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    border: 1px solid lightblue;
+    color: black;
   }
   .accept {
    margin-left: 30px;
